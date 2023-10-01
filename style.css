@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* background:linear-gradient(90deg,#00dbde,#fc00ff); */
+    
+}
+
+.email, .phone{
+    background: linear-gradient(90deg,#00dbde,#fc00ff,#0033ff,#ff0000);
+    font-family: Poppins;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 10s linear infinite;
+    
+}
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
+
+.facebook:hover,.skype:hover,.linkedin:hover,.youtube:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s;
+    
+}
+
+
+.start:hover {
+    transform: rotate(45deg);
+  }
+
+
+  .box{
+    background-color: #b1aeae;
+    transition: transform 0.2s;
+  }
+  .box:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 10px #888888;
+    
+  }
+  
+
+  
